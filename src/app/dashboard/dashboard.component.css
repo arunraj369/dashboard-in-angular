@@ -1,0 +1,26 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1348px;
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+}
+.formfield {
+  margin-left: 20%;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  gap: 2px;
+  margin-top: 2%;
+  font-weight: bolder;
+  font-size: xx-large;
+}

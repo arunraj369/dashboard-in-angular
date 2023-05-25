@@ -1,0 +1,44 @@
+<!-- <p>sidebar works!</p> -->
+<!-- <h1>Sidebar working</h1> -->
+<mat-toolbar class="top-menu" color="primary">
+  <mat-toolbar-row>
+    <button
+      type="button "
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="toggleNav(sidenav)"
+      [disabled]="buttondisable"
+    >
+      <mat-icon arial-label="Side nav toggle icon" *ngIf="hide">menu</mat-icon>
+    </button>
+    <span class="fill-remaining-space"></span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" class="vertical-menu">
+    <mat-nav-list style="width: 200px">
+      <a mat-list-item routerLink="/dashboard" routerLinkActive="Active">
+        <mat-icon>dashboard</mat-icon>&nbsp;<label>Dashboard</label>
+      </a>
+    </mat-nav-list>
+
+    <mat-nav-list style="width: 200px">
+      <a mat-list-item routerLink="/home" routerLinkActive="Active">
+        <mat-icon>grade</mat-icon>&nbsp;<label>Home</label>
+      </a>
+    </mat-nav-list>
+
+    <mat-nav-list style="width: 200px">
+      <a mat-list-item routerLink="/chart" routerLinkActive="Active">
+        <mat-icon>assessment</mat-icon>&nbsp;<label>Chart</label>
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <p style="height: 90vh">
+      <router-outlet></router-outlet>
+    </p>
+  </mat-sidenav-content>
+</mat-sidenav-container>

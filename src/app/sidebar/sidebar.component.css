@@ -1,0 +1,15 @@
+.mat-sidenav {
+  background-color: #222831;
+}
+.mat-sidenav-content {
+  background-color: #eeeeee;
+}
+.mat-toolbar {
+  background-color: #222831;
+}
+label {
+  color: white;
+}
+.mat-icon {
+  color: white;
+}

@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "fullName": "gopi",
+      "empid": 5748,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 4,
+      "password": "hsfdjhbusfd",
+      "id": 1
+    },
+    {
+      "fullName": "gandhi",
+      "empid": 4848,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 5,
+      "password": "12fdjhbusfd",
+      "id": 2
+    },
+    {
+      "fullName": "varun",
+      "empid": 3248,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 1,
+      "password": "58@sfdjhbusfd",
+      "id": 3
+    },
+    {
+      "fullName": "kiruba",
+      "empid": 2148,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 3,
+      "password": "9sfdjhbusfd",
+      "id": 4
+    },
+    {
+      "fullName": "arun",
+      "empid": 9248,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 2,
+      "password": "hsfdjhbusfd",
+      "id": 5
+    },
+    {
+      "fullName": "kalai",
+      "empid": 3948,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 4,
+      "password": "var@34jhbusfd",
+      "id": 6
+    },
+    {
+      "fullName": "subash",
+      "empid": 1248,
+      "email": "gandhi@gmail",
+      "dob": "2023-03-15T18:30:00.000Z",
+      "gender": "male",
+      "experience": 1,
+      "password": "k454djhbusfd",
+      "id": 7
+    }
+  ]
+}

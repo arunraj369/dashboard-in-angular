@@ -1,0 +1,31 @@
+<body>
+  <div class="center">
+    <h1>Login</h1>
+    <form method="post" [formGroup]="register" (ngSubmit)="getData()">
+      <div class="txt_field">
+        <input type="text" required formControlName="username" />
+        <span></span>
+        <label>Username</label>
+        <span
+          *ngIf="vusername && vusername.invalid && vusername.touched"
+          style="color: red"
+          >User name wrong</span
+        >
+      </div>
+      <div class="txt_field">
+        <input type="password" required formControlName="password" />
+        <span></span>
+        <label>Password</label>
+        <span
+          *ngIf="vpassword && vpassword.invalid && vpassword.touched"
+          style="color: red"
+          >Minimum length is 5</span
+        >
+      </div>
+      <div class="pass">Forgot Password?</div>
+      <input type="submit" value="Login" />
+      <div class="signup_link">Not a member? <a href="#">Signup</a></div>
+    </form>
+  </div>
+</body>
+<router-outlet></router-outlet>
